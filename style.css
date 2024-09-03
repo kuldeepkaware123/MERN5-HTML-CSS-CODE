@@ -1,0 +1,76 @@
+/* import font link */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* css code start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: aquamarine;
+  height: 100vh;
+  padding: 20px;
+  font-family: "Kanit", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-container {
+  text-align: center;
+}
+.center-content {
+  height: 85vh;
+  background-color: aqua;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* desktop */
+
+.desk-menu {
+  display: block;
+}
+.mobile-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  .desk-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .center-content {
+    background-color: green;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 550px) {
+}
+
+/* 
+laptop > 1300 to 900
+
+tablat > 900 to 700
+
+mobile -> 700 to 400
+
+*/
+
+/* 
+position
+
+relative -> patent
+absulute -> child
+
+*/

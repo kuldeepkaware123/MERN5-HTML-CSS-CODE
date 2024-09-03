@@ -1,0 +1,50 @@
+h1 {
+  /* color: green; */
+  /* color: rgb(15, 221, 118);
+   */
+   /* color: rgba(224, 4, 4, 1); */
+   /* color:#00ff00; */
+}
+/*
+debugging
+documention
+find the error 
+*/
+/* 
+
+color name
+red green blue
+rgb/ rgba
+hex code
+hsl
+
+
+
+*/
+
+/* div{
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #C11119;
+    color: white;
+} */
+/* 
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+*/
+.background{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(/Assets/techImages.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: top; */
+   
+}

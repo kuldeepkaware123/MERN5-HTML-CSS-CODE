@@ -1,0 +1,36 @@
+section {
+  background-color: aquamarine;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 500px;
+  flex-direction: row-reverse;
+  /* 
+    start
+    center
+    end
+
+    space around
+    space evenly
+    space between
+    
+    
+    */
+
+  div {
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: bisque;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

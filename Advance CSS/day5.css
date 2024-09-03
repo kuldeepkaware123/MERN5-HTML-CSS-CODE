@@ -1,0 +1,55 @@
+.box {
+  background-color: lightgreen;
+  height: 100px;
+  width: 100px;
+  /* animation-name: colochange; */
+  /* animation-duration: 5s; */
+  /* border-radius: 50%; */
+  animation-direction: alternate-reverse;
+  /* animation-delay: 2s; */
+  animation-timing-function: ease;
+  animation-iteration-count: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10px; */
+  transition: all ease 1s;
+  display: inline-block;
+  /* transform: rotate(30deg) translate(30px,30px) scale(1.2) skew(45deg); */
+}
+
+div:hover {
+  transform: rotate(-10deg);
+}
+
+.box2:hover {
+  transform: rotate(10deg);
+}
+.box2 {
+  background-color: aqua;
+}
+
+@keyframes colochange {
+  /* from {
+    transform: scale(0.5);
+    background-color: aqua;
+  }
+  to {
+    transform: scale(1);
+    background-color: brown;
+  } */
+
+  0% {
+    transform: rotateX(0deg);
+    background-color: aqua;
+  }
+  50% {
+    transform: rotateX(180deg);
+    background-color: blue;
+    border-radius: 0px;
+  }
+  100% {
+    transform: rotateX(360deg);
+    background-color: brown;
+  }
+}

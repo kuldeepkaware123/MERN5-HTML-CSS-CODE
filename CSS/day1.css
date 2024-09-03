@@ -1,0 +1,50 @@
+h1{
+    color: red;
+}
+p{
+    background-color:aquamarine;
+}
+
+.mainheading{
+    border: 2px solid red;
+}
+#para{
+    border-color: black;
+}
+
+*{
+    text-align: center;
+}
+div p{
+    background-color:bisque;
+}
+
+div h1{
+    color: black;
+}
+
+/* .mainheading2{
+    border: 2px solid black;
+} */
+
+
+/* Selectors */
+
+/* 
+
+tag name / element name
+ex h1 p button
+
+class . = group style
+
+id # = one from group style
+
+* universal selector
+
+combination of selectors
+
+
+
+
+
+*/

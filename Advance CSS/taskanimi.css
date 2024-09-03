@@ -1,0 +1,39 @@
+.box {
+  border: 2px solid red;
+  height: 10vh;
+  position: relative;
+  h1 {
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+    padding: 2px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 5px;
+    position: absolute;
+    animation-name: animi;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes animi {
+  0% {
+    left: 0px;
+    top: 0px;
+    transform: rotate(20deg);
+  }
+  50% {
+    left: 450px;
+    top: 0px;
+    background-color: red;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    transform: rotate(360deg);
+  }
+}

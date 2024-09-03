@@ -1,0 +1,41 @@
+table {
+    border: 2px solid;
+   border-collapse: collapse;
+   text-align: center;
+   width: 100%;
+}
+th,td{
+    border: 2px solid;
+    padding: 10px;
+}
+th{
+    background-color: orange;
+}
+i{
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+section{
+    /* display: flex; */
+    gap: 20px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid;
+    box-shadow: 0px 0px 5px 1px blue;
+    display: inline-block;
+    /* horezental vertical blur color */
+}
+
+.box2{
+    /* visibility: hidden; */
+    /* display: none; */
+    
+}

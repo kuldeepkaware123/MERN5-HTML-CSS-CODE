@@ -1,0 +1,32 @@
+.box {
+  /* border-width: 5px 10px 15px 20px;
+  border-color: red green blue yellow;
+  border-style: groove dotted dashed solid; */
+  border: 3px solid black;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  margin: 50px;
+}
+/* 
+300 + 20 + 20 + 3 +3 = 346
+300 +20 + 20 +3 + 3 = 346
+
+margin = border k bahar ka space
+padding = border k ander ka space
+
+*/
+/* border value position */
+/* 
+one value = all side
+two value = top-bottom , left-right
+three value =  top, left-right, bottom
+four value = top , right , bottom , left
+
+*/
+
+.news{
+    background-color: antiquewhite;
+    border-left: 5px solid red;
+    padding: 10px;
+}

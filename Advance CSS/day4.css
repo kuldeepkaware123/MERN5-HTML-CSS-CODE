@@ -1,0 +1,64 @@
+/* div{
+    background-image: url(bgimg.jpg);
+    height: 300px;
+    background-size:cover;
+} */
+
+img {
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+
+  object-fit: cover;
+}
+
+h1 {
+  background-color: red;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* 
+: class
+:: element
+*/
+
+h1:hover {
+  background-color: blue;
+}
+
+.parent div{
+    border-top: 2px solid green;
+}
+.parent div:first-child{
+    border-top:unset;
+}
+.parent div:last-child{
+    border-bottom: 2px solid green;
+}
+.parent div:nth-child(even) {
+  color: red;
+}
+
+::selection{
+    background-color: yellow;
+    color: green;
+}
+
+h1::before{
+    content: "🚀 Coding Classes ";
+}
+
+.parent div:nth-child(odd)::before{
+    content:"✅" ;
+}
+.parent div:nth-child(even)::before{
+    content:"❌" ;
+}
+
+p::first-line{
+    font-size: 30px;
+    color: red;
+}

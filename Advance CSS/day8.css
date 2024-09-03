@@ -1,0 +1,45 @@
+.main {
+  background-color: bisque;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 6fr 6fr;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  grid-template-areas:
+    "a b"
+    "a c";
+}
+
+* {
+  border: 2px solid red;
+}
+
+.a {
+  grid-area: a;
+}
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+
+/* h1 {
+  color: blue !important;
+} */
+
+
+/* p{
+    columns: 2;
+}
+
+div{
+    height: 100px;
+    background-color: orange;
+    width: 100px;
+
+    overflow: auto;
+    resize: both;
+} */

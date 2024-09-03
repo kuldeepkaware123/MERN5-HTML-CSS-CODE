@@ -1,0 +1,16 @@
+/* .info {
+  color: blue;
+  border-bottom: 3px solid red;
+}
+
+#info{
+    background-color:aquamarine;
+    color: red;
+} */
+
+.textbox{
+    border: 2px solid red;
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+}

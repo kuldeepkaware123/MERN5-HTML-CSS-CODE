@@ -1,0 +1,26 @@
+div {
+  border: 2px solid red;
+  text-align: center;
+}
+
+.section1, .section2 {
+  background-image: url(/Assets/techImages.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.section2{
+    background-image: unset;
+}
+
+h1{
+    background-color: red;
+    padding: 5px 20px;
+    width: fit-content;
+    color: white;
+}

@@ -1,0 +1,32 @@
+header,
+footer {
+  border: 2px solid red;
+  height: 10vh;
+  margin: 10px;
+}
+.box {
+  border: 2px solid black;
+  height: 60vh;
+  margin: 10px;
+  width: 50%;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color: burlywood;
+}
+section {
+  display: flex;
+}
+@media screen and (max-width:550px) {
+    section{
+        display: unset;
+    }
+    .box{
+        width: unset;
+    }
+    header{
+        background-color: chocolate;
+    }
+}
